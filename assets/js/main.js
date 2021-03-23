@@ -3,13 +3,12 @@
 // Bonus
 // Aggiungere alla pagina un’immagine, presa anch’essa da un data. -->
 
-$(document).ready(function(){
-  var app = new Vue(
-    {
-      el: '#root',
-      data: {
-        message: 'Hello World :)',
-      }
+var app = new Vue(
+  {
+    el: '#root',
+    data: {
+      message: 'Hello World :)',
+      img: 'https://i.stack.imgur.com/ssa4d.png'
     }
-  );
-});
+  }
+);
