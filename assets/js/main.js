@@ -3,8 +3,13 @@
 // Bonus
 // Aggiungere alla pagina un’immagine, presa anch’essa da un data. -->
 
-var app = new Vue(
-  {
-    
-  }
-)
+$(document).ready(function(){
+  var app = new Vue(
+    {
+      el: '#root',
+      data: {
+        message: 'Hello World :)',
+      }
+    }
+  );
+});
